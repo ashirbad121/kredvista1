@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-30T13:37:30 IST" name="Default suite" finished-at="2023-11-30T13:37:37 IST" duration-ms="7147">
+  <suite started-at="2023-11-30T14:56:01 IST" name="Default suite" finished-at="2023-11-30T14:56:28 IST" duration-ms="26339">
     <groups>
     </groups>
-    <test started-at="2023-11-30T13:37:30 IST" name="Default test" finished-at="2023-11-30T13:37:37 IST" duration-ms="7147">
+    <test started-at="2023-11-30T14:56:01 IST" name="Default test" finished-at="2023-11-30T14:56:28 IST" duration-ms="26339">
       <class name="com.DebitCard.TC_13_OpenApproveAccApplyDebitCardUsingGenericUtils">
-        <test-method signature="TC_13Test()[pri:0, instance:com.DebitCard.TC_13_OpenApproveAccApplyDebitCardUsingGenericUtils@18078bef]" started-at="2023-11-30T13:37:30 IST" name="TC_13Test" finished-at="2023-11-30T13:37:37 IST" duration-ms="7095" status="FAIL">
+        <test-method signature="TC_13Test()[pri:0, instance:com.DebitCard.TC_13_OpenApproveAccApplyDebitCardUsingGenericUtils@18078bef]" started-at="2023-11-30T14:56:01 IST" name="TC_13Test" finished-at="2023-11-30T14:56:28 IST" duration-ms="26289" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//tr/td[.='pan1234371']/preceding-sibling::td[5]"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//tr/td[.='pan123430']/preceding-sibling::td[5]"}
   (Session info: chrome=119.0.6045.200)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [afe4c14addaaa405f38d1ddb9f609e53, findElement {using=xpath, value=//tr/td[.='pan1234371']/preceding-sibling::td[5]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\hocky\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52566}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52566/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: afe4c14addaaa405f38d1ddb9f609e53]]>
+Command: [3b40a08a6d290e22725c0dfafd0230fd, findElement {using=xpath, value=//tr/td[.='pan123430']/preceding-sibling::td[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\hocky\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53917}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53917/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b40a08a6d290e22725c0dfafd0230fd]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr/td[.='pan1234371']/preceding-sibling::td[5]"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr/td[.='pan123430']/preceding-sibling::td[5]"}
   (Session info: chrome=119.0.6045.200)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [afe4c14addaaa405f38d1ddb9f609e53, findElement {using=xpath, value=//tr/td[.='pan1234371']/preceding-sibling::td[5]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\hocky\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52566}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52566/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: afe4c14addaaa405f38d1ddb9f609e53
+Command: [3b40a08a6d290e22725c0dfafd0230fd, findElement {using=xpath, value=//tr/td[.='pan123430']/preceding-sibling::td[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\hocky\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53917}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53917/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b40a08a6d290e22725c0dfafd0230fd
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -46,7 +46,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.DebitCard.TC_13_OpenApproveAccApplyDebitCardUsingGenericUtils.TC_13Test(TC_13_OpenApproveAccApplyDebitCardUsingGenericUtils.java:111)
+at com.DebitCard.TC_13_OpenApproveAccApplyDebitCardUsingGenericUtils.TC_13Test(TC_13_OpenApproveAccApplyDebitCardUsingGenericUtils.java:112)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
