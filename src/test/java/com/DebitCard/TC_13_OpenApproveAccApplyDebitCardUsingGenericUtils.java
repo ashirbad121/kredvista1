@@ -59,7 +59,7 @@ public class TC_13_OpenApproveAccApplyDebitCardUsingGenericUtils {
 
 	
 	WebDriverUtils wUtil=new WebDriverUtils();
-	Thread.sleep(10000);
+	Thread.sleep(20000);
 	wUtil.maximizeWindow(driver);
 	driver.get(URL);
 	wUtil.waitForPageLoad(driver, 30);
