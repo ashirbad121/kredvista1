@@ -37,7 +37,7 @@ import com.onlinebanking.GenereicUtils.WebDriverUtils;
 public class TC_13_OpenApproveAccApplyDebitCardUsingGenericUtils {
 
 	@Test()
-	public void TC_13() throws Throwable
+	public void TC_13Test() throws Throwable
 	{
 	//property file handling for common data
 	FileUtils fUtil=new FileUtils();

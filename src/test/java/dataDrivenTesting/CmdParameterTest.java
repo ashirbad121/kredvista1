@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class CmdParameterTest {
 
 	@Test
-	public void cmdParametertest()
+	public void cmdParametertest1()
 	{
 		String BROWSER=System.getProperty("browser");//fetching data from system environment
 		String URL=System.getProperty("url");

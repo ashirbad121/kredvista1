@@ -37,7 +37,7 @@ public class TC_15_DeleteAndViewCustomerUsingGenericUtils {
 	String URL,StaffUSERNAME,staffPassword;
 	WebDriver driver;
 	@Test
-	public void FetchTD() throws Throwable
+	public void FetchTDTest() throws Throwable
 	{
 		
 		
