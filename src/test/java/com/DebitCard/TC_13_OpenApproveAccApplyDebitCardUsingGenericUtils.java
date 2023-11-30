@@ -124,7 +124,6 @@ public class TC_13_OpenApproveAccApplyDebitCardUsingGenericUtils {
 	driver.quit();
 	
 	System.out.println("hello");
-	System.out.println("heyyyyy");
 	
 	}
 	
